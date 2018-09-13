@@ -4,6 +4,8 @@
   "description": "Testing Zeit's handling of X-Forwarded-For Header",
   "main": "index.js",
   "scripts": {
+    "deploy": "now && now alias && now rm zeit-xforwardedhost --safe --yes",
+    "now-start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "homepage": "https://github.com/petermikitsh/zeit-xforwardedhost#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "now": "11.4.2"
   }
 }
