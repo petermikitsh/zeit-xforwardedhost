@@ -1,0 +1,22 @@
+{
+  "name": "zeit-xforwardedhost",
+  "version": "0.0.0",
+  "description": "Testing Zeit's handling of X-Forwarded-For Header",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermikitsh/zeit-xforwardedhost.git"
+  },
+  "author": "Peter Mikitsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petermikitsh/zeit-xforwardedhost/issues"
+  },
+  "homepage": "https://github.com/petermikitsh/zeit-xforwardedhost#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
