@@ -6,7 +6,7 @@ This project checks to see how Zeit handles the `Host` and `X-Forwarded-For` hea
 
 All the application does is return the `Host` header like so:
 
-```
+```js
 app.get('/', (req, res) => res.send(req.hostname));
 ```
 
