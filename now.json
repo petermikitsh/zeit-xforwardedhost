@@ -1,5 +1,8 @@
 {
-  "alias": "xforwardedfor.collegepulse.app",
+  "alias": [
+    "xforwardedfor.collegepulse.app",
+    "xforwardedfor2.collegepulse.app"
+  ],
   "scale": {
     "sfo1": {
       "min": 1,
