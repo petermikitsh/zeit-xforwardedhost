@@ -8,6 +8,6 @@ const app = express();
  */
 app.set('trust proxy', true); 
 
-app.get('/', (req, res) => res.send(req.hostname));
+app.get('/', (req, res) => res.json(req.headers));
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'));
